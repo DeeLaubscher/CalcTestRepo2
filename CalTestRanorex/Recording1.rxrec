@@ -995,6 +995,16 @@ v+FFFAB/bF//AM9//HF/wo/ti/8A+e//AI4v+FFFAB/bF/8A89//ABxf8KP7Yv8A/nv/AOOL/hRR
 QB//2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="f187acb0-9c64-4dca-8e43-59dc2e09716a"
+		KeySequence="sdfsdf"
+		presstime="100ms">
+			<comment/>
+			<bindings/>
+		</keysequenceitem>
 	</recorditems>
 	<repository
 	name="CalTestRanorexRepository"

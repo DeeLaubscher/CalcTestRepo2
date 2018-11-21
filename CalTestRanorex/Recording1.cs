@@ -99,6 +99,10 @@ namespace CalTestRanorex
             repo.Calculator.Num1Button.Click("93;20");
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'sdfsdf'.", new RecordItemIndex(5));
+            Keyboard.Press("sdfsdf");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
