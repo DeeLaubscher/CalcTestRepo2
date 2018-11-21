@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="a64781f6-7c3f-45cb-9ffd-e74ea09ea12c"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="CalTestRanorex"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="CalTestRanorexRepository"
+	id="b7477424-6b76-4a61-ab6f-decf7f12c24e"
+	rxversion="6.0"
+	relativepath="CalTestRanorexRepository.rxrep">
+		<codegen
+		classname="CalTestRanorexRepository"
+		namespace="CalTestRanorex"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="847916f2-d09b-4982-8bd0-0f9705ffa9e1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>
