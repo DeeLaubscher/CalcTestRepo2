@@ -79,6 +79,26 @@ namespace CalTestRanorex
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.Start' at 21;39.", repo.Explorer.StartInfo, new RecordItemIndex(0));
+            repo.Explorer.Start.Click("21;39");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'calc'.", new RecordItemIndex(1));
+            Keyboard.Press("calc");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Search.Id186' at 109;49.", repo.Search.Id186Info, new RecordItemIndex(2));
+            repo.Search.Id186.Click("109;49");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Calculator.Num1Button' at 64;59.", repo.Calculator.Num1ButtonInfo, new RecordItemIndex(3));
+            repo.Calculator.Num1Button.Click("64;59");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Calculator.Num1Button' at 93;20.", repo.Calculator.Num1ButtonInfo, new RecordItemIndex(4));
+            repo.Calculator.Num1Button.Click("93;20");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data
